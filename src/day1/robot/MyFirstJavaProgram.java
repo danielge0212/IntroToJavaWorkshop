@@ -8,8 +8,18 @@ public class MyFirstJavaProgram {
 		
 		// START HERE
 
+	Robot dge= new Robot();
+		dge.penDown();
+		int sides=0;
+		while(sides<10){
+			dge.move(100);
+			dge.turn(90);
+			dge.move(100);
+			dge.turn(-90);
+			dge.move(100);}
+sides=sides+1;
+
+		
 	
-		
-		
-	}
-}
+
+	}}
